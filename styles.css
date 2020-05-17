@@ -1,3 +1,101 @@
-p {
-    color: blue;
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: auto;
+    padding-right: 15px;
+    font-family: Arial light, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+}
+.link:hover {
+    text-decoration: underline;
+}
+.link {
+    padding: 10px;
+}
+#about {
+    padding: 10px;
+    width: 50px;
+}
+#store {
+    flex-grow: 1;
+}
+nav img {
+    height: 30px;
+    padding: 2px 20px 2px 20px;
+}
+nav button {
+    width: 80px;
+    background-color: hsl(210, 80%, 50%);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main img {
+    padding-top: 154px;
+    height: 92px;
+    width: 272px;
+    align-self: center;
+}
+.main form {
+    align-self: center;
+    padding: 10px;
+}
+.main input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 570px;
+    border-radius: 25px;
+    border: solid 1px rgb(200, 200, 200);
+    font-size: 20px;
+    font-weight: lighter;
+}
+.main button {
+    padding: 8px 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: none 1px rgb(100, 100, 100);
+    background-color: rgb(240, 240, 240);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+    width: auto;
+}
+.main p {
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.main a {
+    text-decoration: none;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Arial light, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    background-color: rgb(230, 230, 230);
+    border: solid 1px lightgray
+}
+#bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: Arial light, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    background-color: rgb(230, 230, 230);
+    border-top: solid 1px lightgray
+}
+#how {
+    flex-grow: 1;
 }
