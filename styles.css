@@ -7,7 +7,7 @@ nav {
     font-size: 14px;
     color: rgb(80, 80, 80);
 }
-.link:hover {
+nav .link:hover {
     text-decoration: underline;
 }
 .link {
